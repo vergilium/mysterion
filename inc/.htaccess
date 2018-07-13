@@ -1,0 +1,14 @@
+Order Allow,Deny
+Deny from all
+<Files "debug.php">
+    Order Deny,Allow
+    Allow from all
+</Files>
+<Files "version.php">
+    Order Deny,Allow
+    Allow from all
+</Files>
+<Files "auth.php">
+    Order Deny,Allow
+    Allow from all
+</Files>
